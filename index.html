@@ -1,764 +1,579 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fi">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
-
-    <meta
-        name="description"
-        content="Ilona Tuovisen portfolio – tietojenkäsittelyn tradenomiopiskelija, projektit, osaaminen ja työkokemus."
-    >
+      name="description"
+      content="Ilona Tuovisen portfolio – tietojenkäsittelyn tradenomiopiskelija, projektit, osaaminen ja työkokemus."
+    />
 
     <title>Ilona Tuovinen | Portfolio</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
-        rel="stylesheet"
-    >
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
-
+  <body>
     <header class="site-header">
-        <a class="logo" href="#etusivu" aria-label="Siirry etusivulle">
-            IT
-        </a>
+      <a class="logo" href="#etusivu" aria-label="Siirry etusivulle"> IT </a>
 
-        <nav aria-label="Päävalikko">
-            <a href="#minusta">Minusta</a>
-            <a href="#osaaminen">Osaaminen</a>
-            <a href="#projektit">Projektit</a>
-            <a href="#opinnot">Opinnot</a>
-            <a href="#yhteystiedot">Yhteystiedot</a>
-        </nav>
+      <nav aria-label="Päävalikko">
+        <a href="#minusta">Minusta</a>
+        <a href="#osaaminen">Osaaminen</a>
+        <a href="#projektit">Projektit</a>
+        <a href="#opinnot">Opinnot</a>
+        <a href="#yhteystiedot">Yhteystiedot</a>
+      </nav>
     </header>
 
     <main>
+      <!-- HERO -->
 
-        <!-- HERO -->
+      <section class="hero" id="etusivu">
+        <div class="hero-content">
+          <div class="availability">
+            <span aria-hidden="true"></span>
+            Etsin IT-alan harjoittelupaikkaa
+          </div>
 
-        <section class="hero" id="etusivu">
+          <p class="eyebrow">Tietojenkäsittely · Digital Business</p>
 
-            <div class="hero-content">
+          <h1>
+            Kiinnostukseni on siellä, missä
+            <span>teknologia ja käytännön tarpeet kohtaavat.</span>
+          </h1>
 
-                <div class="availability">
-                    <span aria-hidden="true"></span>
-                    Etsin IT-alan harjoittelupaikkaa
-                </div>
+          <p class="hero-introduction">
+            Olen <strong>Ilona Tuovinen</strong>, tietojenkäsittelyn
+            tradenomiopiskelija ja tuleva IT-alan ammattilainen. Minua
+            kiinnostaa erityisesti se, miten teknologiaa, dataa ja automaatiota
+            voidaan hyödyntää käytännön ongelmien ratkaisemiseen sekä
+            toimivampien palvelujen ja prosessien kehittämiseen.
+          </p>
 
-                <p class="eyebrow">
-                    Tietojenkäsittely · Digital Business
-                </p>
+          <p class="hero-text">
+            Etsin ensisijaisesti keväälle 2027 harjoittelupaikkaa, jossa pääsen
+            soveltamaan osaamistani käytännössä, oppimaan lisää ja osallistumaan
+            digitaalisten ratkaisujen kehittämiseen. Olen avoin myös tarpeen
+            mukaan muille ajankohdille.
+          </p>
 
-                <h1>
-                   Rakennan osaamistani 
-                    <span>datan, ohjelmistojen ja älykkäiden digitaalisten ratkaisujen parissa.</span>
-                </h1>
+          <div class="hero-buttons">
+            <a class="button primary" href="#projektit"> Projektini </a>
 
-                <p class="hero-introduction">
-                    Hei, olen <strong>Ilona Tuovinen</strong> –
-                    tietojenkäsittelyn tradenomiopiskelija, ja suuntaudun digitaaliseen liiketoimintaan. 
-                  !!!!!!!!!!  Osaamiseni painottuu ohjelmistokehitykseen, dataan, automaatioon ja järjestelmien välisiin integraatioihin.
-Olen toteuttanut opintojeni aikana ratkaisuja C#:lla, JavaScriptillä ja Node.js:llä, työskennellyt SQL-tietokantojen ja Power BI:n kanssa sekä rakentanut IoT- ja automaatioratkaisuja. Tällä hetkellä syvennän osaamistani API-rajapinnoissa, järjestelmäintegraatioissa, edistyneessä analytiikassa ja älykkäässä automaatiossa.
-                </p>
+            <a class="button secondary" href="#minusta"> Tutustu minuun </a>
+          </div>
+        </div>
 
-                <p class="hero-text">
-                    Yhdistän teknisen osaamisen, käyttäjälähtöisen
-                    ajattelun ja pitkän työelämäkokemuksen. Etsin
-                    harjoittelupaikkaa, jossa pääsen osallistumaan
-                    oikeiden digitaalisten ratkaisujen kehittämiseen
-                    ja kasvamaan IT-alan ammattilaiseksi.
-                </p>
-
-                <div class="hero-buttons">
-                    <a class="button primary" href="#projektit">
-                        Projektini
-                    </a>
-
-                    <a class="button secondary" href="#minusta">
-                        Tutustu minuun
-                    </a>
-                </div>
-
-                <div
-                    class="hero-technologies"
-                    aria-label="Keskeiset teknologiat"
-                >
-                    <span>C#</span>
-                    <span>SQL</span>
-                    <span>Power BI</span>
-                    <span>Azure DevOps</span>
-                </div>
-
+        <div class="hero-visual" aria-hidden="true">
+          <div class="code-window">
+            <div class="window-header">
+              <span></span>
+              <span></span>
+              <span></span>
             </div>
 
-            <div class="hero-visual" aria-hidden="true">
+            <div class="code-content">
+              <p>
+                <span class="code-purple">const</span>
+                portfolio = {
+              </p>
 
-                <div class="code-window">
+              <p class="code-indent">
+                name:
+                <span class="code-green">"Ilona"</span>,
+              </p>
 
-                    <div class="window-header">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
+              <p class="code-indent">
+                role:
+                <span class="code-green">"IT Student"</span>,
+              </p>
 
-                    <div class="code-content">
-                        <p>
-                            <span class="code-purple">const</span>
-                            portfolio = {
-                        </p>
+              <p class="code-indent">focus: [</p>
 
-                        <p class="code-indent">
-                            name:
-                            <span class="code-green">"Ilona"</span>,
-                        </p>
+              <p class="code-double-indent">
+                <span class="code-green"> "Digital Solutions" </span>,
+              </p>
 
-                        <p class="code-indent">
-                            role:
-                            <span class="code-green">"IT Student"</span>,
-                        </p>
+              <p class="code-double-indent">
+                <span class="code-green"> "Data & Analytics" </span>,
+              </p>
 
-                        <p class="code-indent">
-                            focus: [
-                        </p>
+              <p class="code-indent">]</p>
 
-                        <p class="code-double-indent">
-                            <span class="code-green">
-                                "Digital Solutions"
-                            </span>,
-                        </p>
-
-                        <p class="code-double-indent">
-                            <span class="code-green">
-                                "Data & Analytics"
-                            </span>,
-                        </p>
-
-                      
-
-                        <p class="code-indent">
-                            ]
-                        </p>
-
-                        <p>};</p>
-                    </div>
-
-                </div>
-
-                <div class="floating-card floating-card-top">
-                    <strong>120+ op</strong>
-                    <span>IT-opintoja</span>
-                </div>
-
-                <div class="floating-card floating-card-bottom">
-                    <strong>Open to work</strong>
-                <!-- <span>Harjoittelu Kevät 2027</span> -->    
-                </div>
-
+              <p>};</p>
             </div>
+          </div>
 
-        </section>
+          <div class="floating-card floating-card-top">
+            <strong>120+ op</strong>
+            <span>IT-opintoja</span>
+          </div>
 
-        <!-- MINUSTA -->
+          <div class="floating-card floating-card-bottom">
+            <strong>Open to work</strong>
+            <!-- <span>Harjoittelu Kevät 2027</span> -->
+          </div>
+        </div>
+      </section>
 
-        <section class="content-section reveal" id="minusta">
+      <!-- MINUSTA -->
 
-            <p class="section-label">
-                01 / Minusta
-            </p>
+      <section class="content-section reveal" id="minusta">
+        <p class="section-label">01 / Minusta</p>
 
-            <h2>
-                Teknistä osaamista ja vahva työelämätausta
-            </h2>
+        <h2>Teknistä ymmärrystä ja vahvaa työelämäosaamista</h2>
+
+        <p>
+          Opiskelen tietojenkäsittelyn tradenomiksi
+          Karelia-ammattikorkeakoulussa ja suuntaudun digitaaliseen
+          liiketoimintaan. Opintojeni aikana olen rakentanut monipuolista
+          teknistä osaamista muun muassa datan ja tietokantojen, automaation,
+          IoT-ratkaisujen, sekä digitaalisten palvelujen parissa. Olen
+          tutustunut myös ohjelmistokehitykseen ja ohjelmointiin sekä
+          toteuttanut verkkosivuja WordPressillä.
+        </p>
+
+        <p>
+          Minua kiinnostaa yksittäisiä teknologioita enemmän se, miten niitä
+          voidaan hyödyntää yhdessä käytännön tarpeiden ratkaisemiseen. Tällä
+          hetkellä syvennän osaamistani erityisesti API-rajapinnoissa,
+          järjestelmä- ja palveluintegraatioissa, edistyneessä analytiikassa
+          sekä älykkäässä automaatiossa ja älykkäissä ympäristöissä.
+        </p>
+
+        <p>
+          Aiempi työkokemukseni sosiaali- ja terveysalalta on kehittänyt
+          vastuullisuuttani, ongelmanratkaisukykyäni ja asiakaspalvelutaitojani
+          sekä opettanut toimimaan itsenäisesti ja erilaisten ihmisten kanssa.
+          Haluan tuoda tämän työelämäkokemuksen mukanani myös IT-alalle, jossa
+          teknisten ratkaisujen lisäksi on tärkeää ymmärtää käyttäjien ja
+          organisaatioiden todellisia tarpeita.
+        </p>
+
+        <p>
+          Tavoitteeni on kehittyä monipuoliseksi IT-alan ammattilaiseksi
+          tehtävissä, joissa voin yhdistää teknisen ymmärryksen,
+          ongelmanratkaisun, käyttäjälähtöisen ajattelun ja käytännön
+          työelämäkokemuksen.
+        </p>
+      </section>
+
+      <!-- OSAAMINEN OSIO -->
+
+      <section class="content-section reveal" id="osaaminen">
+        <p class="section-label">02 / Osaaminen</p>
+
+        <h2>Teknologiat ja työkalut</h2>
+
+        <div class="skills-grid">
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">&lt;/&gt;</div>
+
+            <h3>Ohjelmistokehitys</h3>
 
             <p>
-                Opiskelen tietojenkäsittelyn tradenomiksi
-                Karelia-ammattikorkeakoulussa ja suuntaudun digitaaliseen liiketoimintaan. Opinnoissani olen keskittynyt
-                tietokantoihin, data-analytiikkaan, automaatioon,
-                pilvipalveluihin, IoT-ratkaisuihin ja digitaalisten
-                palvelujen kehittämiseen. Olen opiskellut myös ohjelmoinnin perusteita, sekä toteuttanut ohjelmistokehitystä ja rakentanut WordPressillä verkkosivuja. 
+              Ohjelmoinnin ja olio-ohjelmoinnin perusteet, sovelluslogiikka,
+              käyttöliittymät sekä web-sovellusten kehittäminen.
+            </p>
+
+            <div class="skill-tags">
+              <span>C#</span>
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">DB</div>
+
+            <h3>Data & analytiikka</h3>
+
+            <p>
+              Relaatiotietokannat, SQL-kyselyt, datan käsittely, visualisointi
+              ja analysointi. Syvennän parhaillaan osaamistani edistyneessä
+              analytiikassa.
+            </p>
+
+            <div class="skill-tags">
+              <span>SQL</span>
+              <span>MySQL</span>
+              <span>MariaDB</span>
+              <span>Power BI</span>
+              <span>Excel</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">IoT</div>
+
+            <h3>Automaatio & IoT</h3>
+
+            <p>
+              Prosessiautomaatio, IoT-laitteet, sensoridata ja
+              MQTT-viestinvälitys. Syvennän osaamistani älykkäässä automaatiossa
+              ja älykkäissä ympäristöissä.
+            </p>
+
+            <div class="skill-tags">
+              <span>UiPath</span>
+              <span>RPA</span>
+              <span>ESP32</span>
+              <span>MQTT</span>
+              <span>IoT</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">Git</div>
+
+            <h3>API:t & integraatiot</h3>
+
+            <p>
+              Opiskelen parjaillaan REST-rajapintojen käyttämistä, HTTP-pyyntöjä
+              ja JSON-datan käsittelyä. Lisäksi opiskelen myös järjestelmä- ja
+              palveluintegraatioita.
+            </p>
+
+            <div class="skill-tags">
+              <span>REST API</span>
+              <span>JSON</span>
+              <span>HTTP</span>
+              <span>Järjestelmäintegraatiot</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">Git</div>
+
+            <h3>Kehitys & projektityö</h3>
+
+            <p>
+              Versionhallinta, ketterä ohjelmistokehitys, backlogit,
+              käyttäjätarinat ja projektityöskentely.
+            </p>
+
+            <div class="skill-tags">
+              <span>Git</span>
+              <span>GitHub</span>
+              <span>Azure DevOps</span>
+              <span>Scrum</span>
+              <span>Product Owner</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- PROJEKTINI -->
+
+      <section class="content-section reveal" id="projektit">
+        <p class="section-label">03 / Projektit</p>
+
+        <h2>Valikoituja opiskeluprojekteja</h2>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <p class="project-type">Product Owner · Data</p>
+
+            <h3>Kampuslämpötilojen visualisointi</h3>
+
+            <p>
+              Ketterä opiskelijaprojekti, jossa tavoitteena oli
+              kampusrakennusten lämpötiladatan visualisointi ja poikkeamien
+              tunnistaminen. Toimin projektissa Product Ownerina.
             </p>
 
             <p>
-                Aiempi työkokemukseni sosiaali- ja terveysalalta on
-                kehittänyt vastuullisuuttani, ongelmanratkaisukykyäni,
-                asiakaspalvelutaitojani ja valmiuttani toimia
-                paineen alla. Uskon, että näistä taidoista on merkittävää
-                hyötyä myös IT-alan tehtävissä.
+              Vastasin tuotteen visiosta, käyttäjätarinoista, backlogista,
+              priorisoinnista, asiakasyhteistyöstä ja sprinttien tavoitteiden
+              selkeyttämisestä.
+            </p>
+
+            <ul class="tags">
+              <li>Azure DevOps</li>
+              <li>Power BI</li>
+              <li>SQL</li>
+              <li>Scrum</li>
+              <li>Product Owner</li>
+            </ul>
+
+            <a class="project-link" href="#yhteystiedot">
+              Kysy lisää projektista →
+            </a>
+          </article>
+
+          <article class="project-card">
+            <p class="project-type">Web-sovellus</p>
+
+            <h3>HabitSpark</h3>
+
+            <p>
+              Tavanseurantasovellus, jossa käyttäjä voi lisätä tapoja, merkitä
+              päivittäisiä suorituksia ja seurata edistymistään.
             </p>
 
             <p>
-                Tavoitteeni on löytää harjoittelupaikka, jossa pääsen
-                yhdistämään teknisen osaamisen, käyttäjälähtöisen
-                ajattelun ja käytännön työelämäkokemuksen.
+              Projektissa harjoittelin käyttöliittymän rakentamista,
+              sovelluslogiikkaa, REST-rajapintoja ja sovelluksen julkaisemista.
             </p>
 
-        </section>
+            <ul class="tags">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Node.js</li>
+              <li>Docker</li>
+            </ul>
 
-        <!-- OSAAMINEN OSIO -->
+            <a class="project-link" href="#yhteystiedot">
+              Kysy lisää projektista →
+            </a>
+          </article>
 
-        <section class="content-section reveal" id="osaaminen">
+          <article class="project-card">
+            <p class="project-type">C# · Ohjelmistokehitys</p>
 
-            <p class="section-label">
-                02 / Osaaminen
+            <h3>Laskutusjärjestelmä</h3>
+
+            <p>
+              Ketterä opiskelijaprojekti, jossa toteutettiin C#:lla
+              konsolisovellus, jolla voidaan hallita asiakkaita, tuotteita ja
+              laskuja sekä hakea laskuja eri hakuehdoilla.
             </p>
 
-            <h2>
-                Teknologiat ja työkalut
-            </h2>
-
-            <div class="skills-grid">
-
-                <article class="card">
-
-                    <div class="card-icon" aria-hidden="true">
-                        &lt;/&gt;
-                    </div>
-
-                    <h3>
-                        Ohjelmistokehitys
-                    </h3>
-
-                    <p>
-                        Ohjelmoinnin ja olio-ohjelmoinnin perusteet, sovelluslogiikka, 
-                        käyttöliittymät sekä web-sovellusten kehittäminen.
-                    </p>
-
-                    <div class="skill-tags">
-                        <span>C#</span>
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>JavaScript</span>
-                    </div>
-
-                </article>
-
-                <article class="card">
-
-                    <div class="card-icon" aria-hidden="true">
-                        DB
-                    </div>
-
-                    <h3>
-                        Data & analytiikka
-                    </h3>
-
-                    <p>
-                        Relaatiotietokannat, SQL-kyselyt, datan käsittely, visualisointi ja analysointi. 
-                        Syvennän parhaillaan osaamistani edistyneessä analytiikassa.
-                    </p>
-
-                    <div class="skill-tags">
-                        <span>SQL</span>
-                        <span>MySQL</span>
-                        <span>MariaDB</span>
-                        <span>Power BI</span>
-                        <span>Excel</span>
-                    </div>
-
-                </article>
-
-                <article class="card">
-
-                    <div class="card-icon" aria-hidden="true">
-                        Git
-                    </div>
-
-                    <h3>
-                        Kehitys & projektityö
-                    </h3>
-
-                    <p>
-                        Versionhallinta, ketterä ohjelmistokehitys, 
-                        backlogit, käyttäjätarinat ja projektityöskentely.
-                    </p>
-
-                    <div class="skill-tags">
-                        <span>Git</span>
-                        <span>GitHub</span>
-                        <span>Azure DevOps</span>
-                        <span>Scrum</span>
-                        <span>Product Owner</span>
-                    </div>
-
-                </article>
-
-
-
-
-                  <article class="card">
-
-                    <div class="card-icon" aria-hidden="true">
-                        Git
-                    </div>
-
-                    <h3>
-                        API:t & integraatiot
-                    </h3>
-
-                    <p>
-                        Opiskelen parjaillaan REST-rajapintojen käyttämistä, HTTP-pyyntöjä ja JSON-datan käsittelyä. 
-                        Lisäksi opiskelen myös järjestelmä- ja palveluintegraatioita.
-                    </p>
-
-                    <div class="skill-tags">
-                        <span>REST API</span>
-                        <span>JSON</span>
-                        <span>HTTP</span>
-                        <span>Järjestelmäintegraatiot</span>
-            
-                    </div>
-
-                </article>
-
-
-                <article class="card">
-
-                    <div class="card-icon" aria-hidden="true">
-                        IoT
-                    </div>
-
-                    <h3>
-                        Automaatio & IoT
-                    </h3>
-
-                    <p>
-                        Prosessiautomaatio, IoT-laitteet, sensoridata ja MQTT-viestinvälitys. 
-                        Syvennän osaamistani älykkäässä automaatiossa ja älykkäissä ympäristöissä.
-                    </p>
-
-                    <div class="skill-tags">
-    
-                        <span>UiPath</span>
-                        <span>RPA</span>
-                        <span>ESP32</span>
-                        <span>MQTT</span>
-                        <span>IoT</span>
-                        
-                    </div>
-
-                </article>
-
-              
-
-            </div>
-
-        </section>
-
-        <!-- PROJEKTINI -->
-
-        <section class="content-section reveal" id="projektit">
-
-            <p class="section-label">
-                03 / Projektit
+            <p>
+              Projektissa harjoittelin olio-ohjelmointia, luokkien suunnittelua,
+              tiedon tallentamista, kokoelmia ja sovelluslogiikan jakamista
+              selkeisiin osiin.
             </p>
 
-            <h2>
-                Valikoituja opiskeluprojekteja
-            </h2>
+            <ul class="tags">
+              <li>C#</li>
+              <li>OOP</li>
+              <li>Repository Pattern</li>
+              <li>File Storage</li>
+            </ul>
 
-            <div class="projects-grid">
+            <a class="project-link" href="#yhteystiedot">
+              Kysy lisää projektista →
+            </a>
+          </article>
 
-                <article class="project-card">
+          <article class="project-card">
+            <p class="project-type">IoT · Sulautetut järjestelmät</p>
 
-                    <p class="project-type">
-                        Product Owner · Data
-                    </p>
+            <h3>ESP32- ja MQTT-ratkaisut</h3>
 
-                    <h3>
-                        Kampuslämpötilojen visualisointi
-                    </h3>
+            <p>
+              Wokwilla simuloituja IoT-harjoituksia, joissa käsiteltiin
+              sensoridataa, ohjattiin LED-valoja ja välitettiin viestejä
+              MQTT-protokollan avulla.
+            </p>
 
-                    <p>
-                        Ketterä opiskelijaprojekti, jossa tavoitteena oli
-                        kampusrakennusten lämpötiladatan visualisointi ja
-                        poikkeamien tunnistaminen. Toimin projektissa
-                        Product Ownerina.
-                    </p>
+            <p>
+              Projektissa käytettiin ESP32-mikrokontrolleria, JSON-sanomia,
+              Node.js:ää ja MQTT-välittäjää. Loppuprojektina suunnittelin
+              IoT-sensoritulppa ratkaisun viskin kypsytyksen optimointiin.
+            </p>
 
-                    <p>
-                        Vastasin tuotteen visiosta, käyttäjätarinoista,
-                        backlogista, priorisoinnista, asiakasyhteistyöstä
-                        ja sprinttien tavoitteiden selkeyttämisestä.
-                    </p>
+            <ul class="tags">
+              <li>ESP32</li>
+              <li>MQTT</li>
+              <li>JSON</li>
+              <li>Node.js</li>
+              <li>IoT</li>
+            </ul>
 
-                    <ul class="tags">
-                        <li>Azure DevOps</li>
-                        <li>Power BI</li>
-                        <li>SQL</li>
-                        <li>Scrum</li>
-                        <li>Product Owner</li>
-                    </ul>
+            <a class="project-link" href="#yhteystiedot">
+              Kysy lisää projektista →
+            </a>
+          </article>
+        </div>
+      </section>
 
-                    <a class="project-link" href="#yhteystiedot">
-                        Kysy lisää projektista →
-                    </a>
+      <!-- OPINNOT TÄNNE -->
 
-                </article>
+      <section class="content-section reveal" id="opinnot">
+        <p class="section-label">04 / Opinnot</p>
 
-                <article class="project-card">
+        <h2>Koulutus</h2>
 
-                    <p class="project-type">
-                        Web-sovellus
-                    </p>
+        <p class="section-introduction">
+          Koulutustaustani yhdistää digitaalisen liiketoiminnan, teknisen
+          osaamisen sekä vahvan kokemuksen ihmisläheisestä ja vastuullisesta
+          työstä.
+        </p>
 
-                    <h3>
-                        HabitSpark
-                    </h3>
+        <div class="education-timeline">
+          <!-- Tradenomi -->
 
-                    <p>
-                        Tavanseurantasovellus, jossa käyttäjä voi lisätä
-                        tapoja, merkitä päivittäisiä suorituksia ja seurata
-                        edistymistään.
-                    </p>
-
-                    <p>
-                        Projektissa harjoittelin käyttöliittymän
-                        rakentamista, sovelluslogiikkaa,
-                        REST-rajapintoja ja sovelluksen julkaisemista.
-                    </p>
-
-                    <ul class="tags">
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>Node.js</li>
-                        <li>Docker</li>
-                    </ul>
-
-                    <a class="project-link" href="#yhteystiedot">
-                        Kysy lisää projektista →
-                    </a>
-
-                </article>
-
-                <article class="project-card">
-
-                    <p class="project-type">
-                        C# · Ohjelmistokehitys
-                    </p>
-
-                    <h3>
-                        Laskutusjärjestelmä
-                    </h3>
-
-                    <p>
-                        Ketterä opiskelija projekti, jossa toteutettiin C#:lla konsolisovellus, jolla voidaan
-                        hallita asiakkaita, tuotteita ja laskuja sekä
-                        hakea laskuja eri hakuehdoilla.
-                    </p>
-
-                    <p>
-                        Projektissa harjoittelin olio-ohjelmointia,
-                        luokkien suunnittelua, tiedon tallentamista,
-                        kokoelmia ja sovelluslogiikan jakamista
-                        selkeisiin osiin.
-                    </p>
-
-                    <ul class="tags">
-                        <li>C#</li>
-                        <li>OOP</li>
-                        <li>Repository Pattern</li>
-                        <li>File Storage</li>
-                    </ul>
-
-                    <a class="project-link" href="#yhteystiedot">
-                        Kysy lisää projektista →
-                    </a>
-
-                </article>
-
-                <article class="project-card">
-
-                    <p class="project-type">
-                        IoT · Sulautetut järjestelmät
-                    </p>
-
-                    <h3>
-                        ESP32- ja MQTT-ratkaisut
-                    </h3>
-
-                    <p>
-                        Wokwi simuloituja IoT-harjoituksia, joissa käsiteltiin sensoridataa,
-                        ohjattiin LED-valoja ja välitettiin viestejä
-                        MQTT-protokollan avulla. 
-                    </p>
-
-                    <p>
-                        Projektissa käytettiin ESP32-mikrokontrolleria,
-                        JSON-sanomia, Node.js:ää ja MQTT-välittäjää. Loppuprojektina suunnittelin IoT-sensoritulppa ratkaisun viskin kypsytyksen optimointiin. 
-                    </p>
-
-                    <ul class="tags">
-                        <li>ESP32</li>
-                        <li>MQTT</li>
-                        <li>JSON</li>
-                        <li>Node.js</li>
-                        <li>IoT</li>
-                    </ul>
-
-                    <a class="project-link" href="#yhteystiedot">
-                        Kysy lisää projektista →
-                    </a>
-
-                </article>
-
-            </div>
-
-        </section>
-
-        <!-- OPINNOT TÄNNE -->
-
-       
-
-<section class="content-section reveal" id="opinnot">
-
-    <p class="section-label">
-        04 / Opinnot
-    </p>
-
-    <h2>
-        Koulutus
-    </h2>
-
-    <p class="section-introduction">
-        Koulutustaustani yhdistää digitaalisen liiketoiminnan,
-        teknisen osaamisen sekä vahvan kokemuksen ihmisläheisestä
-        ja vastuullisesta työstä.
-    </p>
-
-    <div class="education-timeline">
-
-        <!-- Tradenomi -->
-
-        <article class="timeline-item">
-
+          <article class="timeline-item">
             <div class="timeline-marker" aria-hidden="true">
-                <span></span>
+              <span></span>
             </div>
 
             <div class="timeline-card">
+              <div class="timeline-card-header">
+                <div>
+                  <p class="education-degree">Tradenomi</p>
 
-                <div class="timeline-card-header">
-
-                    <div>
-                        <p class="education-degree">
-                            Tradenomi
-                        </p>
-
-                        <h3>
-                            Tietojenkäsittely
-                        </h3>
-                    </div>
-
-                    <span class="education-year">
-                        2024–2027
-                    </span>
-
+                  <h3>Tietojenkäsittely</h3>
                 </div>
 
-                <p class="education-specialization">
-                    Digitaalinen liiketoiminta
-                </p>
+                <span class="education-year"> 2024–2027 </span>
+              </div>
 
-                <p class="education-school">
-                    Karelia-ammattikorkeakoulu
-                </p>
+              <p class="education-specialization">Digitaalinen liiketoiminta</p>
 
-                <p class="education-description">
-                    Opinnoissa olen perehtynyt muun muassa
-                    ohjelmistokehitykseen, tietokantoihin,
-                    data-analytiikkaan, pilvipalveluihin,
-                    IoT-ratkaisuihin ja ketterään projektityöhön.
-                </p>
+              <p class="education-school">Karelia-ammattikorkeakoulu</p>
 
-                <ul class="education-tags">
-                    <li>Ohjelmistokehitys</li>
-                    <li>Data ja SQL</li>
-                    <li>Digital Business</li>
-                    <li>Projektityö</li>
-                </ul>
+              <p class="education-description">
+                Opinnoissa olen perehtynyt muun muassa ohjelmistokehitykseen,
+                tietokantoihin, data-analytiikkaan, pilvipalveluihin,
+                IoT-ratkaisuihin ja ketterään projektityöhön.
+              </p>
 
+              <ul class="education-tags">
+                <li>Ohjelmistokehitys</li>
+                <li>Data ja SQL</li>
+                <li>Digital Business</li>
+                <li>Projektityö</li>
+              </ul>
             </div>
+          </article>
 
-        </article>
+          <!-- Eläintenhoitaja -->
 
-        <!-- Eläintenhoitaja -->
-
-        <article class="timeline-item">
-
+          <article class="timeline-item">
             <div class="timeline-marker" aria-hidden="true">
-                <span></span>
+              <span></span>
             </div>
 
             <div class="timeline-card">
+              <div class="timeline-card-header">
+                <div>
+                  <p class="education-degree">Maatalousalan perustutkinto</p>
 
-                <div class="timeline-card-header">
-
-                    <div>
-                        <p class="education-degree">
-                            Maatalousalan perustutkinto
-                        </p>
-
-                        <h3>
-                            Eläintenhoitaja
-                        </h3>
-                    </div>
-
-                    <span class="education-year">
-                        2021–2022
-                    </span>
-
+                  <h3>Eläintenhoitaja</h3>
                 </div>
 
-                <p class="education-school">
-                    Kainuun ammattiopisto
-                </p>
+                <span class="education-year"> 2021–2022 </span>
+              </div>
 
-                <p class="education-description">
-                    Koulutus vahvisti käytännön ongelmanratkaisua,
-                    vastuullisuutta sekä itsenäistä työskentelyä.
-                </p>
+              <p class="education-school">Kainuun ammattiopisto</p>
 
-                <ul class="education-tags">
-                    <li>Vastuullisuus</li>
-                    <li>Itsenäinen työ</li>
-                    <li>Käytännön osaaminen</li>
-                </ul>
+              <p class="education-description">
+                Koulutus vahvisti käytännön ongelmanratkaisua, vastuullisuutta
+                sekä itsenäistä työskentelyä.
+              </p>
 
+              <ul class="education-tags">
+                <li>Vastuullisuus</li>
+                <li>Itsenäinen työ</li>
+                <li>Käytännön osaaminen</li>
+              </ul>
             </div>
+          </article>
 
-        </article>
+          <!-- Lähihoitaja -->
 
-        <!-- Lähihoitaja -->
-
-        <article class="timeline-item">
-
+          <article class="timeline-item">
             <div class="timeline-marker" aria-hidden="true">
-                <span></span>
+              <span></span>
             </div>
 
             <div class="timeline-card">
+              <div class="timeline-card-header">
+                <div>
+                  <p class="education-degree">
+                    Sosiaali- ja terveysalan perustutkinto
+                  </p>
 
-                <div class="timeline-card-header">
-
-                    <div>
-                        <p class="education-degree">
-                            Sosiaali- ja terveysalan perustutkinto
-                        </p>
-
-                        <h3>
-                            Lähihoitaja
-                        </h3>
-                    </div>
-
-                    <span class="education-year">
-                        2013–2016
-                    </span>
-
+                  <h3>Lähihoitaja</h3>
                 </div>
 
-                <p class="education-specialization">
-                    Mielenterveys- ja päihdetyö
-                </p>
+                <span class="education-year"> 2013–2016 </span>
+              </div>
 
-                <p class="education-school">
-                    Pohjois-Karjalan ammattiopisto,
-                    Joensuu Palvelut
-                </p>
+              <p class="education-specialization">
+                Mielenterveys- ja päihdetyö
+              </p>
 
-                <p class="education-description">
-                    Koulutus loi perustan asiakaspalvelulle,
-                    vuorovaikutukselle, moniammatilliselle yhteistyölle
-                    ja vastuulliselle toiminnalle haastavissa tilanteissa.
-                </p>
+              <p class="education-school">
+                Pohjois-Karjalan ammattiopisto, Joensuu Palvelut
+              </p>
 
-                <ul class="education-tags">
-                    <li>Vuorovaikutus</li>
-                    <li>Asiakaspalvelu</li>
-                    <li>Tiimityö</li>
-                    <li>Paineensietokyky</li>
-                </ul>
+              <p class="education-description">
+                Koulutus loi perustan asiakaspalvelulle, vuorovaikutukselle,
+                moniammatilliselle yhteistyölle ja vastuulliselle toiminnalle
+                haastavissa tilanteissa.
+              </p>
 
+              <ul class="education-tags">
+                <li>Vuorovaikutus</li>
+                <li>Asiakaspalvelu</li>
+                <li>Tiimityö</li>
+                <li>Paineensietokyky</li>
+              </ul>
             </div>
+          </article>
+        </div>
+      </section>
 
-        </article>
+      <!-- YHTEYSTIEDOT -->
 
-    </div>
+      <section class="content-section contact reveal" id="yhteystiedot">
+        <p class="section-label">05 / Yhteystiedot</p>
 
-</section>
+        <h2>Etsitään yhdessä sopiva rooli</h2>
 
-        <!-- YHTEYSTIEDOT -->
+        <p>
+          Etsin tietojenkäsittelyn harjoittelupaikkaa, jossa pääsen kehittämään
+          osaamistani käytännön työtehtävissä. Olen kiinnostunut erityisesti
+          digitaalisista palveluista ja sovellusten kehittämisestä.
+        </p>
 
-        <section
-            class="content-section contact reveal"
-            id="yhteystiedot"
-        >
+        <div class="hero-buttons">
+          <a class="button primary" href="mailto:ilotuovi@gmail.com">
+            Lähetä sähköpostia
+          </a>
 
-            <p class="section-label">
-                05 / Yhteystiedot
-            </p>
+          <a
+            class="button secondary"
+            href="https://www.linkedin.com/in/tuovinen-ilona"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
 
-            <h2>
-                Etsitään yhdessä sopiva rooli
-            </h2>
-
-            <p>
-                Etsin tietojenkäsittelyn harjoittelupaikkaa,
-                jossa pääsen kehittämään osaamistani käytännön
-                työtehtävissä. Olen kiinnostunut erityisesti
-                digitaalisista palveluista ja sovellusten kehittämisestä.
-            </p>
-
-            <div class="hero-buttons">
-
-                <a
-                    class="button primary"
-                    href="mailto:ilotuovi@gmail.com"
-                >
-                    Lähetä sähköpostia
-                </a>
-
-                <a
-                    class="button secondary"
-                    href="https://www.linkedin.com/in/tuovinen-ilona"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    LinkedIn
-                </a>
-
-                <a
-                    class="button secondary"
-                    href="files/CVIlonaTuovinen.pdf"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Avaa CV
-                </a>
-
-            </div>
-
-        </section>
-
+          <a
+            class="button secondary"
+            href="files/CVIlonaTuovinen.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Avaa CV
+          </a>
+        </div>
+      </section>
     </main>
 
     <footer>
-        <p>
-            © <span id="year"></span> Ilona Tuovinen
-        </p>
+      <p>© <span id="year"></span> Ilona Tuovinen</p>
     </footer>
 
     <script src="script.js"></script>
-
-</body>
+  </body>
 </html>
